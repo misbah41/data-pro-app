@@ -1,0 +1,33 @@
+.transparent-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav-link {
+  color: aliceblue !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+.top-left > ul > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.top-left > ul > li > span {
+  color: #fff;
+}
+.top-left > ul > li > span > i {
+  margin-right: 10px;
+}
+.top-header-area .top-right {
+  float: right;
+}
+.top-header-area .top-right>ul>li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.top-header-area .top-right>ul>li>a {
+  color: #fff;
+}

@@ -1,0 +1,74 @@
+.about-area-v1 .about-img {
+  background-color: #FFAA17;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 40px;
+}
+.about-area-v1 .about-img img {
+  border-radius: 5px;
+  margin-bottom: -40px;
+}
+.about-area-v1 .about-content-box {
+  padding-left: 25px;
+}
+.about-area-v1 .about-content-box p{
+  margin-bottom: 30px;
+}
+.about-area-v1 .about-content-box h5{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.about-list-item .list-item .check-box {
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  background-color: #FFAA17;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+  border-radius: 5px;
+  margin-right: 24px;
+font-size: 24px;
+}
+/* about-area-v2 */
+.about-area-v2 .about-content-box .about-list-item {
+  margin-bottom: 40px;
+}
+.about-area-v2 .about-content-box p {
+  margin-bottom: 30px;
+}
+.about-area-v2 .about-content-box .about-list-item .list-item li{
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 5px;
+}
+.about-area-v2 .about-content-box .about-list-item .list-item li:last-child{
+  margin-bottom: 0px;
+}
+.about-area-v2 .about-content-box .about-list-item .list-item li:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '\f00c';
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 400;
+  color: #FFAA17;
+}
+.about-area-v2 .about-img{
+  padding-left: 10px;
+}
+.about-area-v2 .about-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.pt-120 {
+  padding-top: 120px;
+}

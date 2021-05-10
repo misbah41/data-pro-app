@@ -1,0 +1,110 @@
+.section-title span.span {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #FFAA17;
+}
+.section-title h2 {
+  font-size: 46px;
+  margin-bottom: 0;
+}
+.section-title-white h2{
+  color: #fff;
+}
+.work-process .section-title p {
+  color: #fff;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.service-area-v1{
+  background-color: #F0F4F9;
+  padding-top: 180px;
+}
+.service-area .single-service-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 35px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.service-area .single-service-item h5{
+  margin-bottom: 20px;
+}
+.service-area .single-service-item p {
+  opacity: .8;
+}
+.service-area .single-service-item .icon {
+  min-width: 60px;
+  max-width: 60px;
+  margin-right: 30px;
+}
+.service-area .single-service-item .icon img{
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.service-area .single-service-item:hover {
+  background-color: #222429;
+}
+.service-area .single-service-item:hover h5 {
+  color: #fff;
+  
+}
+.service-area .single-service-item:hover p {
+  color: #fff;
+}
+.service-area .single-service-item h5,.single-service-item p {
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* service-area-v2 */
+.service-area-v2{
+  position: relative;
+  z-index: 1;
+}
+.service-area-v2:after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: #F0F4F9;
+  width: 100%;
+  height: 590px;
+  z-index: -1;
+}
+.service-area-v2 .single-service-item {
+  background-color: #222429;
+  border: 1px solid #2F333B;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.service-area-v2 .single-service-item h5,
+.service-area-v2 .single-service-item p {
+  color: #fff;
+  opacity: 1;
+}
+.service-area-v2 .single-service-item:hover {
+  background-color: #FFAA17;
+}
+.service-area-v2 .single-service-item:hover h5,
+.service-area-v2 .single-service-item:hover p {
+  color: #1C1E22;
+}
+.service-area-v2 .single-service-item:hover img {
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+}
